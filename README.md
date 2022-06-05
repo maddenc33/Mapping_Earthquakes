@@ -1,6 +1,7 @@
 # Mapping Earthquakes
 ## Module 13 Challenge
 ### Christopher Madden
+---
 #### Objectives:
 - Create a branch from the main branch on GitHub.
 - Add, commit, and push data to a GitHub branch.
@@ -11,3 +12,4 @@
 - Add multiple map layers to geographical maps using Leaflet control plugins to add user interface controls.
 - Use JavaScript ES6 functions to add GeoJSON data, features, and interactivity to maps.
 - Render maps on a local server.
+---
