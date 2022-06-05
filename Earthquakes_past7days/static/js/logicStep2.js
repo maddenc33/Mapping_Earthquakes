@@ -24,13 +24,13 @@ let map = L.map('mapid', {center: [39.5, -98.5], zoom: 3,layers:[streets]}) ;
 //Earthquakes past 7 days
 let earthquakes = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 // Accessing the Toronto neighborhoods GeoJSON URL.
-let torontoHoods = "https://raw.githubusercontent.com/faramarzamirshahi/Mapping_Earthquakes/main/torontoNeighborhoods.json";
+let torontoHoods = "https://raw.githubusercontent.com/maddenc33/Mapping_Earthquakes/main/torontoNeighborhoods.json";
 // Accessing the Toronto airline routes GeoJSON URL.
-let torontoData = "https://raw.githubusercontent.com/faramarzamirshahi/Mapping_Earthquakes/main/torontoRoutes.json";
+let torontoData = "https://raw.githubusercontent.com/maddenc33/Mapping_Earthquakes/main/torontoRoutes.json";
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
   // Accessing the airport GeoJSON URL
-  let airportData = "https://raw.githubusercontent.com/faramarzamirshahi/Mapping_Earthquakes/main/majorAirports.json";
+  let airportData = "https://raw.githubusercontent.com/maddenc33/Mapping_Earthquakes/main/majorAirports.json";
 // Grabbing our GeoJSON data.
 d3.json(earthquakes).then(
   function(data) {
